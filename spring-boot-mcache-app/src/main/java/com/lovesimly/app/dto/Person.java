@@ -11,7 +11,7 @@ public class Person  implements Serializable{
 	
 	private Integer age;
 	
-	private Date birthday;//
+	private Date birthday;
 
 	public String getName() {
 		return name;
