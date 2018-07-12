@@ -1,0 +1,10 @@
+mcache:
+  redis:
+    sentinel: true
+    pool:
+      hostName: 10.253.10.152:27379,10.253.9.90:27379,10.253.101.135:27379,10.253.8.14:27379,10.139.102.143:27379
+      mastername: master_1003_1
+      maxTotal: 1024
+      maxIdle: 200
+      maxWaitMillis: 5000
+      password: xiongjie_ty7u83p5s
