@@ -1,3 +1,8 @@
+server:
+  port: 8080
+  error: 
+    path: /error
+
 mcache:
   redis:
     sentinel: true

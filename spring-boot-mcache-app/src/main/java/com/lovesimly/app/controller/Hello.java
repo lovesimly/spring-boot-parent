@@ -10,5 +10,10 @@ public class Hello {
 	public String index() {
 		return "hello wrold";
 	}
+	
+	@RequestMapping("/error")
+	public String myError() {
+		return "hello wrold error";
+	}
 
 }
